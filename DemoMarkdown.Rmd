@@ -1,0 +1,21 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
+## Demo R Markdown Document
+
+Libraries that I need.  
+```{r}
+library(tidyverse)
+```
+
+```{r}
+#This is a comment
+nrow(mtcars) #This will give the number of cars in the dataset
+```
+
+The number of cars in the mtcars dataset is 'r nrow(mtcars)' 
+
+*This is in italics*
+**This is in bold**
